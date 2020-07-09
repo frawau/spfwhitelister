@@ -41,7 +41,7 @@ def main():
                         skip = not skip
                     elif not skip:
                         newfile.append(line)
-        except Exception e:
+        except Exception as e:
             print("Warning: File {} could not be read. Error was: {}".format(opts.file,e))
         if newfile[-1]=="":
             newfile = newfile[:-1]

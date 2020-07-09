@@ -23,7 +23,7 @@ setuptools.setup(name='spfwhitelister',
     keywords = ["greylist","MTA"],
     license='MIT',
     install_requires=[
-    "pythondns"
+    "dnspython"
     ],
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
